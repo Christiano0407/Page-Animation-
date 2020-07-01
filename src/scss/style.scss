@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700|Source+Sans+Pro:300,400,600,700&display=swap");
 
-$bg-color: #151728;
-$border-color: #272a3a;
+$bg-color: #281526;
+$border-color: #3a2738;
 $title-font: "DM Sans", sans-serif;
 $body-font: "Source Sans Pro", sans-serif;
-$side-title: #5c5e6e;
-$button: #8f98a9;
+$side-title: #6e5c6c;
+$button: #a98fa3;
 
 * {
  outline: none;
@@ -117,9 +117,9 @@ body {
  top: 0;
  background: linear-gradient(
   to bottom,
-  rgba(21, 23, 40, 1) 0%,
-  rgba(21, 23, 40, 1) 76%,
-  rgba(21, 23, 40, 0) 100%
+  rgb(40, 21, 38) 0%,
+  rgb(40, 21, 36) 76%,
+  rgba(40, 21, 37, 0) 100%
  );
 }
 
@@ -302,7 +302,7 @@ body {
  &:hover {
   color: #fff;
   background-color: #1b1d2e;
-  border-bottom: 3px solid #1488fa;
+  border-bottom: 3px solid #fa14e7;
  }
 }
 
@@ -402,7 +402,7 @@ body {
 
  &-item a {
   margin-left: 6px;
-  color: #1771d6;
+  color: #d617ad;
   text-decoration: none;
  }
 
@@ -435,7 +435,7 @@ body {
 }
 
 .event-month {
- background-color: #1687fa;
+ background-color: #fa16b6;
  padding: 7px 20px;
  font-weight: 600;
  font-family: $title-font;
@@ -585,13 +585,13 @@ body {
 }
 
 .status-share {
- background-color: #1b86f9;
+ background-color: #f91bc9;
  border: none;
  color: #fff;
  border-radius: 4px;
  padding: 10px 20px;
  margin-left: auto;
- box-shadow: 0 0 20px #1b86f9;
+ box-shadow: 0 0 20px #f91bc9;
  cursor: pointer;
 }
 
@@ -613,13 +613,13 @@ body {
 }
 
 .album-title span {
- color: #1771d6;
+ color: #d617c6;
  cursor: pointer;
 }
 
 .album-date {
  font-size: 15px;
- color: #595c6c;
+ color: #6c5968;
  margin-top: 4px;
 }
 
@@ -663,7 +663,7 @@ body {
 .album-action {
  margin-right: 20px;
  text-decoration: none;
- color: #a2a4b4;
+ color: #b4a2ae;
  display: inline-flex;
  align-items: center;
  font-weight: 600;
@@ -679,7 +679,7 @@ body {
 .account-button {
  border: 0;
  background: 0;
- color: #64677a;
+ color: #7a6477;
  padding: 0;
  cursor: pointer;
  position: relative;
@@ -693,7 +693,7 @@ body {
  position: absolute;
  right: 0px;
  top: -2px;
- background-color: #1b86f8;
+ background-color: #f81bdb;
  width: 8px;
  height: 8px;
  border-radius: 50%;
@@ -711,7 +711,7 @@ body {
 .account-user {
  display: inline-flex;
  align-items: center;
- color: #64677a;
+ color: #7a6476;
  font-weight: 600;
  span {
   font-size: 10px;
@@ -749,7 +749,7 @@ body {
  border-radius: 50%;
  margin-left: auto;
  &.offline {
-  background-color: #606a8d;
+  background-color: #8d6083;
  }
  &.idle {
   background-color: #dd1c20;
@@ -796,7 +796,7 @@ body {
  position: fixed;
  top: 0;
  left: 0;
- background-color: rgba(#24273b, 0.8);
+ background-color: rgba(#3b243a, 0.8);
  opacity: 0;
  visibility: hidden;
  pointer-events: none;
@@ -831,7 +831,7 @@ body {
   height: 10px;
   border-radius: 50%;
   position: absolute;
-  background-color: #1b86f8;
+  background-color: #f81bdb;
   border: 2px solid #1e2031;
   top: 13px;
   right: 12px;
