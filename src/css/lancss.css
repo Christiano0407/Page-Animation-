@@ -49,3 +49,42 @@ font-size: 30px;
 text-transform: uppercase;
 letter-spacing: 1px; 
 }
+.profile img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* CONTENT */
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.split {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    transition: is all cubic-bezier(.87, .76, .33, .98);
+    overflow: hidden;
+}
+.split.left {
+    left: 0;
+    background:#03658C;
+}
+.hover-left .split.left{
+    width: 60%;
+}
+.split.right {
+    right: 0;
+    background:#F2B705;
+}
+.hover-left .split.right {
+    width: 40%;
+}
+.hover-right .split.right {
+    width: 60%;
+}
+.hover-right .split.left {
+    width: 40%;
+}
